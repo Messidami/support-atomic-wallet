@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>support</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <h1>Bitcoin Support Center</h1>
+    <p>Your Trusted Help Desk for All Bitcoin Inquiries</p>
+</header>
+
+<nav>
+    <a href="#about">About Bitcoin</a>
+    <a href="#services">Our Support Services</a>
+    <a href="#contact">Contact Us</a>
+</nav>
+
+<div class="container">
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Bitcoin</h2>
+        <p>Bitcoin is a decentralized digital currency that allows secure peer-to-peer transactions over the internet. It operates without a central authority or bank, making it a revolutionary way to store and transfer value globally. 
+        Whether you’re a beginner or a seasoned investor, understanding how Bitcoin works is essential for safe usage and investment.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Bitcoin Support Services</h2>
+        <ul>
+            <li>💡 Guidance on creating and securing your Bitcoin wallet.</li>
+            <li>🔍 Assistance with transaction tracking and confirmations.</li>
+            <li>🛠 Help resolving Bitcoin transfer delays or issues.</li>
+            <li>📚 Education on Bitcoin best practices and security tips.</li>
+            <li>💳 Guidance for buying and selling Bitcoin safely.</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Our Support Team</h2>
+        <p>Our team is available 24/7 to assist you with any Bitcoin-related questions or problems. Click the <span class="highlight">chat icon</span> in the bottom-right corner to connect instantly.</p>
+        <p>If our live chat is unavailable, please email us at <a href="mailto:support@yourcompany.com">support@yourcompany.com</a> and we’ll respond promptly.</p>
+    </section>
+</div>
+
+<footer>
+    &copy; <span id="year"></span> Bitcoin Support Center — All Rights Reserved.
+</footer>
+
+<!-- Chaport Live Chat Script -->
+<script type="text/javascript">
+(function(w,d,v3){
+    w.chaportConfig = { appId : '6895bc0abdb454436bd7cb34' };
+    if(w.chaport)return;v3=w.chaport={};v3._q=[];v3._l={};
+    v3.q=function(){v3._q.push(arguments)};
+    v3.on=function(e,fn){if(!v3._l[e])v3._l[e]=[];v3._l[e].push(fn)};
+    var s=d.createElement('script');s.type='text/javascript';s.async=true;
+    s.src='https://app.chaport.com/javascripts/insert.js';
+    var ss=d.getElementsByTagName('script')[0];
+    ss.parentNode.insertBefore(s,ss)
+})(window, document);
+</script>
+
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+    
+</body>
+</html>
